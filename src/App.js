@@ -32,7 +32,7 @@ function App() {
             </header>
             <div>
                 {/* Dropdown to select user */}
-                <label htmlFor="user">Please select an User : </label>
+                <label htmlFor="user">Select a User : </label>
                 <select id="user" onChange={np_handleChange}>
                     <option value="1">Arthur</option>
                     <option value="2">Lily</option>
